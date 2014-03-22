@@ -152,9 +152,9 @@
     <body style="background-image:url('http://puzzle.multunus.com/assets/watch_minimized-8f2f2b01514d433754b4f2c47d4cee58.png'); background-size: 100%">
         
         <div id="explanation" onclick="hideExplanation()" >
-            <img id="arrowCentre" border="0" src="whitearrow.png" width="100" height="100"/>
-            <img id="arrowRetweeters" border="0" src="whitearrow2.png" width="100" height="100"/>
-            <img id="arrowRanks" border="0" src="whitearrow2.png" width="100" height="100"/>
+            <img id="arrowCentre" border="0" src="images/whitearrow.png" width="100" height="100"/>
+            <img id="arrowRetweeters" border="0" src="images/whitearrow2.png" width="100" height="100"/>
+            <img id="arrowRanks" border="0" src="images/whitearrow2.png" width="100" height="100"/>
             
             <div id="explainCentre">
                 <span id="explainCentreText" >This is the owner of the tweet.</span>
