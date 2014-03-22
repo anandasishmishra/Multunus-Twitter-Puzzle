@@ -1,14 +1,8 @@
-# Embedded Jetty template application
+# Multunus Twitter Puzzle
 
-This is a template for a web application that uses embedded Jetty. The sample code consists of a JSP (this page) and a simple servlet.
+This project takes a tweet, processes the retweeters and the number of followers of each retweeter and then ranks the retweeters based on their number of followers.
 
-## Running the application locally
+For example, if a tweet has 50 retweeters and the retweeter ABC has the highest number of followers then he will be ranked 1.
 
-First build with:
-
-    $mvn clean install
-
-Then run it with:
-
-    $java -cp target/classes:target/dependency/* com.example.Main
+The twitter4j api hase been used to achieve this.
 
