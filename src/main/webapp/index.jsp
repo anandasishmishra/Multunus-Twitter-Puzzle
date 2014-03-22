@@ -21,13 +21,13 @@
         <link rel="stylesheet" type="text/css" href="multunus.css">
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="mult.js">
+        <script>
         	
         	$(document).ready(function(){
             	$(".around").hover(function(){
                    	 $(".blackCoat",this).fadeToggle(200);
-         	   });
-   			 });
+         	   	});
+   			});
 
 		    function showExplanation(){
 		        document.getElementById("explanation").style.visibility="visible";
